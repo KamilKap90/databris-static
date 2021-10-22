@@ -1298,7 +1298,12 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-
+.portfolio-details .container-certs img {
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
