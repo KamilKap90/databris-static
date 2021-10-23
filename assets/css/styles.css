@@ -242,6 +242,23 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #FF4D1A;
 }
 
+@media (max-width: 768px) {
+  .features .getstarted  i {
+    padding: 0;
+    line-height: 1;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 575px) {
+  .features .getstarted  {
+    padding: 15px;
+  }
+  .features .getstarted  i {
+    font-size: 24px;
+  }
+}
+
 .navbar > ul > li > .getstarted:before {
   visibility: hidden;
 }
@@ -884,6 +901,23 @@ section {
 .features .nav-link.active {
   background: #FF4D1A;
   color: #fff;
+  border-color: #FF4D1A;
+}
+
+.features .nav-link2 {
+  padding: 15px;
+  transition: 0.3s;
+  border-radius: 4px;
+  color: #fff;
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features .nav-link:hover2 {
+  color: #fff;
+  background: #fd3800;
   border-color: #FF4D1A;
 }
 
