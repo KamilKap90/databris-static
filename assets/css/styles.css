@@ -904,22 +904,49 @@ section {
   border-color: #FF4D1A;
 }
 
-.features .nav-link2 {
-  padding: 15px;
-  transition: 0.3s;
+.navbar .nav-link-2 {
+  padding: 8px 25px;
   border-radius: 4px;
   color: #fff;
   border: 2px solid #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.features .nav-link:hover2 {
+
+
+.features .nav-link-2 i {
+  padding: 8px 25px;
+  margin-left: 30px;
+  border-radius: 4px;
   color: #fff;
-  background: #fd3800;
-  border-color: #FF4D1A;
+  border: 2px solid #fff;
 }
+
+
+.features .nav-link-2 h4 {
+  padding: 8px 25px;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+
+.features .nav-link-2:hover {
+  padding: 8px 25px;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.features .nav-link-2.active {
+  padding: 8px 25px;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
 
 @media (max-width: 768px) {
   .features .nav-link i {
@@ -934,6 +961,23 @@ section {
     padding: 15px;
   }
   .features .nav-link i {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .features .nav-link-2 i {
+    padding: 0;
+    line-height: 1;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 575px) {
+  .features .nav-link-2 {
+    padding: 15px;
+  }
+  .features .nav-link-2 i {
     font-size: 24px;
   }
 }
