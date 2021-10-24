@@ -348,6 +348,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
@@ -959,18 +961,7 @@ section {
 }
 
 
-.getstarted-2 {
-  padding: 8px 25px;
-  border-radius: 4px;
-  color: #fff;
-  border: 2px solid #fff;
-}
 
-.getstarted-2:hover {
-  color: #fff;
-  background: #fd3800;
-  border-color: #FF4D1A;
-}
 
 
 /*--------------------------------------------------------------
