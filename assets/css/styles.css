@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul {
- 
+  display: block;
   position: absolute;
   left: 14px;
   top: calc(100% + 30px);
@@ -339,14 +339,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-  .navbar ul {
-    display: none;
-  }
-}
+
 
 .navbar-mobile {
   position: fixed;
@@ -422,9 +415,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #FF4D1A;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
-  display: block;
-}
 
 /*--------------------------------------------------------------
 # Hero Section
