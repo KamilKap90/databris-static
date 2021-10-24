@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  .features .getstarted  i {
+  .navbar .getstarted  i {
     padding: 0;
     line-height: 1;
     font-size: 36px;
@@ -251,10 +251,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 575px) {
-  .features .getstarted  {
+  .navbar .getstarted  {
     padding: 15px;
   }
-  .features .getstarted  i {
+  .navbar .getstarted  i {
     font-size: 24px;
   }
 }
@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul {
-  display: block;
+ 
   position: absolute;
   left: 14px;
   top: calc(100% + 30px);
@@ -957,6 +957,21 @@ section {
   max-height: 400px;
   width: auto;
 }
+
+
+.getstarted-2 {
+  padding: 8px 25px;
+  border-radius: 4px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.getstarted-2:hover {
+  color: #fff;
+  background: #fd3800;
+  border-color: #FF4D1A;
+}
+
 
 /*--------------------------------------------------------------
 # Services
