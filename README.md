@@ -88,3 +88,5 @@ This project is licensed under the [LICENSE NAME] - see the LICENSE file for det
 - Bootstrap 5.0.1
 - GLightbox
 - [Any other libraries or resources used]
+
+Readme.md created by [Edin Durak](https://github.com/edindurak)
